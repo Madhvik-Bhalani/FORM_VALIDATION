@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#mainform {
+  /* border: 2px solid red; */
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(122, 243, 174); */
+  margin-top: 10px;
+align-items: center;
+}
+
+#head h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 100px;
+  text-shadow: 2px 2px 2px  red;
+  color: rgb(10, 73, 168);
+}
+form {
+  margin-top: 10px;
+}
+#name {
+  width: 800px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#no {
+    margin-top: 10px;
+    width: 800px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#feed{
+    margin-top: 10px;
+    width: 800px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#mail{
+    margin-top: 10px;
+    width: 800px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    width: 800px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    /* border: 1px solid red; */
+    margin-left: 88px;
+}
+#submit{
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(0, 202, 88);
+    color: white;
+    border-radius: 10px;
+    outline: none;
+}
+#reset{
+    outline: none;
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    background-color: rgb(185, 11, 11);
+}
+span{
+    color: red;
+}
+
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/27/07/32/clouds-1282314_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
